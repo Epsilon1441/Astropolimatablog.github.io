@@ -1,0 +1,98 @@
+ 
+
+/********section*************/
+section{ 
+     
+}
+.fondo{
+     
+    background-color: rgb(100, 129, 226);
+    background-size: cover;
+    height:auto;   /***************************************************/
+    
+     
+}
+.CB{
+    text-align: center;
+    margin-bottom: 5%;
+    
+    
+}
+.coltxt{
+    background-color: rgb(222, 252, 252) ;
+    border-radius: 10px;
+     padding: 2%;
+    
+}
+.colimg{
+    height: 60vh;
+
+
+}
+
+.columnas1{
+    text-align: center;
+    
+    display: flex;
+ 
+   
+   
+   
+    
+}
+
+ 
+
+
+ /*carrusel*/
+ .carousel{
+    
+ }
+ .carousel-inner{
+    padding: 2% 30%;
+    
+ }
+ .carousel-item{
+    width: 50%;
+     
+
+ }
+ .fotobanner{
+    width: 100%;
+     
+    border-radius: 40px;
+    
+    position: relative;
+ }
+ 
+
+
+
+
+ .carousel-caption {
+    position: absolute;
+    top: 50%; /* Centra verticalmente */
+    left: 50% !important; /* Centra horizontalmente */
+    transform: translate(-50%, -50%); /* Ajusta la posición */
+    background-color: rgba(0, 0, 0, 0.0); /* Fondo negro semitransparente */
+    color: white; /* Color del texto */
+    padding: 00px; /* Espaciado interno */
+    border-radius: 5px; /* Bordes redondeados */
+    text-align: center; /* Centra el texto */
+    
+}
+
+ 
+.titulobanner{
+     
+    font-size: 3rem;
+}
+
+.actionc{ }
+
+.action{
+    
+    margin-top: 5%;
+    text-align: center;
+    font-size: 2rem;
+}

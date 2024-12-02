@@ -1,0 +1,32 @@
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+    width: 100%;
+}
+
+body{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+
+
+
+
+.fondo{
+    background-image: url(imagenes/fondo\ fisica.jpg);
+    background-size: cover;
+    height: auto;
+    padding: 5% 10%;
+    width: 100%;
+     
+}
+
+.card{
+    background-color: rgb(117, 243, 252) !important;
+}
+.texto{
+    color: rgb(199, 2, 2, 50) !important;
+    font-weight: 500 !important;
+}

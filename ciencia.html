@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="ciencia.css">
+    <!--BTP-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+
+
+    <title>Ciencia</title>
+</head>
+
+<body>
+    <header>
+        <img class="img-fluid portada " src="imagenes/header-2 (1).jpg" alt="Conocimiento, Libros">
+        <!-- Barra de menú -->
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container-fluid contenedor-barra">
+                <a class="navbar-brand ms-4 logo" href="index.html">
+                    <img src="imagenes/logo azul.png" alt="Logo" class="logo-img">
+                </a>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                    aria-label="Toggle navigation" onclick="toggleBackground()">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+                        <li class="nav-item mx-3">
+                            <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link mx-3 dropdown-toggle" href="ciencia.html" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Ciencia
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="fisica.html">Física</a></li>
+                                <li><a class="dropdown-item" href="#">Astronomía</a></li>
+                                <li><a class="dropdown-item" href="#">Apuntes</a></li>
+                                <li><a class="dropdown-item" href="#">Tecnología</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link mx-3 dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Arte
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Música</a></li>
+                                <li><a class="dropdown-item" href="#">Pintura</a></li>
+                                <li><a class="dropdown-item" href="#">Dibujo</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link mx-3" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Derecho
+                            </a>
+                        </li>
+                        <li class="nav-item mx-5">
+                           <a href="https://www.instagram.com/astropolimata.blog/profilecard/?igsh=MWRzYmlmYXU1dGczZA=="><img src="imagenes/logoinstarojo.png" alt="Logo Instagram"
+                                style="height: 50px; width: auto;"></a> 
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+    </header>
+
+
+
+    <!------------cuerpo---------------------------->
+    <section class="fondo">
+
+        <div class="container">
+            <h2 class="h2ciencia">Les doy la bienvenida al Laboratorio Científico!!</h2>
+        </div>
+        <!---contenedor posts tarjetas--->
+        <!--tarjeta 1-->
+        <div class="card">
+
+            <div class="card-body">
+                <h5 class="card-title">Física</h5>
+                <p class="card-text">En esta sección analizaremos el origen de todo (literalmente). Te invito a un
+                    recorrido evolutivo de los fenómenos que abarcan desde la física clásica hasta la física cuántica.
+                </p>
+                <a href="fisica.html" class="btn btn-primary">Ir al blog de Física</a>
+            </div>
+        </div>
+        <!--tarjeta 1-->
+        <div class="card">
+
+            <div class="card-body">
+                <h5 class="card-title">Astronomía</h5>
+                <p class="card-text">Aquí vamos a estudiar desde movimiento planetario, órbitas, sistemas de
+                    coordenadas, evolución estelar y los fenómenos mas llamativos de la astrofísica.</p>
+                <a href="#" class="btn btn-primary">Ir al blog de Astro</a>
+            </div>
+        </div>
+        <!--tarjeta 1-->
+        <div class="card">
+
+            <div class="card-body">
+                <h5 class="card-title">Apuntes</h5>
+                <p class="card-text">En esta sección estaré subiendo apuntes propios de física y astronomía. Documentos
+                    elaborados desde el cursado de la carrera en astronomía. Una mirada académica de lo que pasa "dentro
+                    y fuera" de la esfera celeste.</p>
+                <a href="#" class="btn btn-primary">Ir a ver Apuntes</a>
+            </div>
+        </div>
+        <!--tarjeta 1-->
+        <div class="card">
+
+            <div class="card-body">
+                <h5 class="card-title">Tecnología</h5>
+                <p class="card-text">Desde esta sección vamos a dar una mirada a los fenómenos tecnologícos que se
+                    destacan en la era digital. Podremos reflexionar, analizar y discutir acerca de nuevas (y viejas)
+                    tecnológias, lenguajes de programación, maquinarias y equipos que permiten avanzar a pasos
+                    agigantados en el ámbito científico. </p>
+                <a href="#" class="btn btn-primary">Ir al blog de tecnología</a>
+            </div>
+        </div>
+
+
+
+
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!--Footer-->
+    <footer>
+        <div class="row filafooter ">
+            <div class=" col-0   col-sm-4    my-3">
+                <h5> </h5>
+                <ul class="lifu">
+
+                </ul>
+            </div>
+            <div class=" col-6   col-sm-4  my-3">
+                <h5>Creditos</h5>
+                <ul class="lifu">
+                    <li class="">Desarrollado por Hernán Cruz</li>
+                    <li class="">Contenido elaborado por Hernán Cruz</li>
+                    <li class="">Diseño realizado por Hernán Cruz</li>
+                    <li class=""></li>
+                </ul>
+            </div>
+            <div class=" col-6   col-sm-4  my-3">
+                <h5> </h5>
+                <ul class="lifu">
+                    <li class="">Sugerencias?</li>
+                    <li class="">Contacto directo</li>
+
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+
+
+    <script src=”barranavbar.js”></script>
+</body>

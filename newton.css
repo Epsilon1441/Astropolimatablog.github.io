@@ -1,0 +1,14 @@
+.fondo{
+     
+    background-color: rgb(100, 129, 226);
+    background-size: cover;
+    height: auto !important;   /***************************************************/
+    
+     
+}
+.col{
+    padding: 2%;
+}
+.coltexto{
+    background-color: aliceblue;
+}
